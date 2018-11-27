@@ -4,3 +4,18 @@
  * Algorithm test! Write an algorithm that
  * can solve any loop-free maze. 
  */
+
+import "turns";
+
+function SolveMaze(){
+	while(noBeepersPresent()){
+		if(rightIsClear()){
+			turnRight();
+	}else{
+	while(frontIsBlocked()){
+		turnLeft();
+	}
+}
+	move();
+	}
+}
